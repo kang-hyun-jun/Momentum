@@ -1,0 +1,41 @@
+.hidden{
+  display: none;
+}
+body{
+  color: white;
+  margin: 0;
+}
+img{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+#all
+{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#centor
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote
+{
+  padding-bottom: 10px;
+}
+
+#weather
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
